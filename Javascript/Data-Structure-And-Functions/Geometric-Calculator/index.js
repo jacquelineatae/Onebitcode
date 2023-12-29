@@ -48,7 +48,7 @@ function circleArea() {
 }
 
 // Function to display the menu and get user input
-function exibirMenu() {
+function showMenu() {
     return prompt(
         "Geometric Calculator\n" +
         "1. Area of triangle\n" +
@@ -64,7 +64,7 @@ function exibirMenu() {
 function execute() {
     do {
         // Call exibirMenu function to display the menu and get user input
-        menu = exibirMenu();
+        menu = showMenu();
 
         // Switch statement to execute code based on the user's chosen option
         switch (menu) {
